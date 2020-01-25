@@ -1,0 +1,522 @@
+@media only screen and (max-width:400px){
+    h1.h_heading{
+        font-size:2.8em;
+    }
+
+    p.p_heading{
+        font-size: 1em;
+        padding-top: 0px;
+    }
+
+    div.heading{
+        height: 250px;
+    }
+
+    div.register{
+        width: 100px;
+        height: 30px;
+    }
+
+    h1.h1_register{
+        font-size: 1.1em;
+    }
+
+
+    div.timer{
+        height: 300px;
+    }
+
+    h1.h1_timer{
+        font-size: 1.5em;
+    }
+
+    div.timered{
+        width: 250px;
+        height: 50px;
+        overflow: hidden;
+    }
+
+    h1.demo{
+        font-size: 1.0em;
+        padding-top: 5px;
+    }
+
+    h1.h1_principal{
+        font-size: 1.3em;
+    }
+
+    img.img_principal{
+        width: 200px;
+        height: 200px;
+    }
+
+    div.force{
+        height: 150px;
+    }
+
+    h1.h1_force{
+        font-size: 1.5em;
+    }
+
+    p.p_force{
+        font-size: 0.7em;
+        font-weight: 500;
+        padding-left: 10px;
+        padding-right:10px;
+    }
+
+    div.events{
+        height: 100px;
+    }
+
+    h1.h1_events{
+        font-size: 5em;
+    }
+
+    h1.ev_h1{
+        font-size: 1.3em;
+    }
+
+    p.ev_p{
+        font-size: 1.0em;
+    }
+
+    h1.text1{
+        font-size: 1em;
+    }
+
+    h1.text2{
+        font-size: 1em;
+    }
+
+    h1.text3{
+        font-size: 1em;
+    }
+
+    h1.text4{
+        font-size: 1em;
+    }
+
+    h1.text5{
+        font-size: 1em;
+    }
+
+    h1.text6{
+        font-size: 1em;
+    }
+
+    h1.text7{
+        font-size: 1em;
+    }
+
+    h1.text8{
+        font-size: 1em;
+    }
+
+    h1.text9{
+        font-size: 1em;
+    }
+
+    h1.text10{
+        font-size: 1em;
+    }
+
+    h1.text11{
+        font-size: 1em;
+    }
+
+    h1.text12{
+        font-size: 1em;
+    }
+
+    h1.text13{
+        font-size: 1em;
+    }
+
+    h1.text14{
+        font-size: 1em;
+    }
+
+    h1.text15{
+        font-size: 1em;
+    }
+
+    h1.text16{
+        font-size: 1em;
+    }
+
+    div.register{
+        width: 100%;
+        height: 150px;
+    }
+
+    button.button_register{
+        width: 90px;
+        height: 30px;
+        font-size: 0.6em;
+    }
+    
+    button.button_download{
+        width: 90px;
+        height: 30px;
+        font-size: 0.5em;
+    }    
+
+    h1.made{
+        font-size: 0.7em;
+    }
+
+    div.made{
+        height: 30px;
+    }
+    h1.h1_team{
+        font-size: 3em;
+    }
+    h1.dates{
+        font-size: 1em;
+    }
+    p.footer{
+        font-size: 0.7em;
+    }
+    h1.footer{
+        font-size: 2em;
+    }
+    div.footer{
+        height: 300px;
+    }
+    div.footer_shade{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width:600px) and (min-width:400px){
+    h1.h_heading{
+        font-size: 3.7em;
+        margin-top: 0px;
+    }
+
+    p.p_heading{
+        font-size: 1.6em;
+    }
+
+    div.heading{
+        height: 350px;
+        background-size: cover;
+    }
+
+    div.register{
+        width: 240px;
+    }
+
+
+    h1.h1_timer{
+        font-size: 2.5em;
+    }
+
+    h1.demo{
+        font-size: 1.6em;
+    }
+
+    div.timered{
+        width: 370px;
+        height: 70px;
+    }
+
+    h1.h1_principal{
+        font-size: 2.4em;
+    }
+
+    p.p_force{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 0.9em;
+    }
+
+    div.events{
+        height: 100px;
+    }
+
+    h1.h1_events{
+        font-size: 5em;
+    }
+
+    h1.h1_events{
+        font-size: 5em;
+    }
+
+    h1.ev_h1{
+        font-size: 1.3em;
+    }
+
+    p.ev_p{
+        font-size: 1.0em;
+    }
+
+    h1.text1{
+        font-size: 1em;
+    }
+
+    h1.text2{
+        font-size: 1em;
+    }
+
+    h1.text3{
+        font-size: 1em;
+    }
+
+    h1.text4{
+        font-size: 1em;
+    }
+
+    h1.text5{
+        font-size: 1em;
+    }
+
+    h1.text6{
+        font-size: 1em;
+    }
+
+    h1.text7{
+        font-size: 1em;
+    }
+
+    h1.text8{
+        font-size: 1em;
+    }
+
+    h1.text9{
+        font-size: 1em;
+    }
+
+    h1.text10{
+        font-size: 1em;
+    }
+
+    h1.text11{
+        font-size: 1em;
+    }
+
+    h1.text12{
+        font-size: 1em;
+    }
+
+    h1.text13{
+        font-size: 1em;
+    }
+
+    h1.text14{
+        font-size: 1em;
+    }
+
+    h1.text15{
+        font-size: 1em;
+    }
+
+    h1.text16{
+        font-size: 1em;
+    }
+
+    div.register{
+        width: 100%;
+        height: 150px;
+    }
+
+    button.button_register{
+        width: 90px;
+        height: 30px;
+        font-size: 0.6em;
+    }
+
+    button.button_download{
+        width: 90px;
+        height: 30px;
+        font-size: 0.5em;
+    }
+    
+    h1.h1_register{
+        font-size: 1.8em;
+    }
+
+    h1.made{
+        font-size: 0.7em;
+    }
+
+    div.made{
+        height: 30px;
+    }
+    h1.h1_team{
+        font-size: 4em;
+    }
+    h1.dates{
+        font-size: 1.2em;
+    }
+    p.footer{
+        font-size: 1em;
+    }
+    h1.footer{
+        font-size: 3em;
+    }
+    div.footer{
+        height: 300px;
+    }
+}
+
+
+@media only screen and (max-width:850px) and (min-width:600px){
+    h1.h_heading{
+        font-size:5.8em;
+    }
+
+    h1.h1_force{
+        font-size: 2.8em;
+    }
+
+    p.p_force{
+        font-size: 1.0em;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    div.timered{
+        width: 500px;
+        height: 80px;
+    }
+
+    h1.demo{
+        font-size: 2.1em;
+    }
+
+    div.events{
+        height: 120px;
+    }
+
+    h1.h1_events{
+        font-size: 5.5em;
+    }
+
+    h1.ev_h1{
+        font-size: 1.6em;
+    }
+
+    p.ev_p{
+        font-size: 1.0em;
+    }
+
+    h1.text1{
+        font-size: 1.2em;
+    }
+
+    h1.text2{
+        font-size: 1.2em;
+    }
+
+    h1.text3{
+        font-size: 1.2em;
+    }
+
+    h1.text4{
+        font-size: 1.2em;
+    }
+
+    h1.text5{
+        font-size: 1.2em;
+    }
+
+    h1.text6{
+        font-size: 1.2em;
+    }
+
+    h1.text7{
+        font-size: 1.2em;
+    }
+
+    h1.text8{
+        font-size: 1.2em;
+    }
+
+    h1.text9{
+        font-size: 1.2em;
+    }
+
+    h1.text10{
+        font-size: 1.2em;
+    }
+
+    h1.text11{
+        font-size: 1.2em;
+    }
+
+    h1.text12{
+        font-size: 1.2em;
+    }
+
+    h1.text13{
+        font-size: 1.2em;
+    }
+
+    h1.text14{
+        font-size: 1.2em;
+    }
+
+    h1.text15{
+        font-size: 1.2em;
+    }
+
+    h1.text16{
+        font-size: 1.2em;
+    }
+
+    div.register{
+        width: 100%;
+        height: 150px;
+    }
+
+    h1.h1_register{
+        font-size: 2.3em;
+    }
+
+    button.button_register{
+        width: 90px;
+        height: 30px;
+        font-size: 0.6em;
+    }
+
+    button.button_download{
+        width: 90px;
+        height: 30px;
+        font-size: 0.5em;
+    }
+    
+    h1.made{
+        font-size: 0.7em;
+    }
+
+    div.made{
+        height: 30px;
+    }
+    
+    h1.h1_team{
+        font-size: 4.5em;
+    }
+    p.footer{
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width:940px) and (min-width:850.001px){
+
+    div.timered{
+        width: 700px;
+    }
+
+    p.p_force{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+@media only screen and (max-width:1200px) and (min-width:940px){
+
+    
+}

@@ -1,0 +1,15 @@
+Website is complete however some things are still needed to be changed/added.
+Things to change/add:
+1. on the top, change the text ""Date 1 &  Date 2" with the real event dates. Also if u find a better background image then only change it otherwise it looks just fine.
+2. Timer. Go to the "js" folder and open the file "loader" in whichever text editor u want. on the first line change the part "("July 30, 2019 09:00:00")" to the real date and time. Don't fiddle with the comas and anything else just change the details regarding date and time in the exact format as you see it now.
+3. edit the principal message if you can make it a little shorter as nobody gives a shit about it.
+4. now at the end their is a register button. Go to the index file in the folder and open it with a text editor and go at the botton, their the href is set as "#" please put the entire url of the google registration form u have or would create. By entire url I mean ENTIRE URL with https waala part also otherwise it will not work.
+5. In the footer I have provided a e-mail id "help.forceclub@gmail.com". Do create one G-mail account with same username for queries and support, it helps trust me.
+6. Change the font if you want. 
+7. Change the background for events div if u want.
+8. Also I haven't created a member of the club part because I don't know who all are on the team. If you want it create it. Also there is no social media icons on the webpage because i don't where all you guys have an account, so again if you want it create it.
+9. Also please please double check the event details before uploading it.
+10. And at last I won't I repeat I WON'T be responsible for any mistakes on the webpage. Now it's yours.
+11. Do not call or text me unless for saything thank you ofcourse.		
+12. Add any special effects if you want.
+13. I have optimized this webpage for different screen sizes, but still check it. Also parallax effect does not work on android smart phones. And if you guys decide to add something else PLEASE open the file "css/optimization.css" and and optimize it for different screen size.

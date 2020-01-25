@@ -1,0 +1,787 @@
+    body, html{
+        margin: 0;
+        padding:0;
+        top: 0;
+        bottom: 0;
+    }
+    
+    h1.h_heading{
+        font-size: 8.2em;
+        font-family: brat;
+        color: black;
+        margin-top: 20px;
+        padding: 0;
+        }
+    
+    @font-face{
+        font-family: forcefest;
+        src: url("../fonts/forcefest.otf")
+    }
+
+    @font-face{
+        font-family: brat;
+        src: url("../fonts/Brat.ttf");
+    }
+    
+    @font-face{
+        font-family: azonix;
+        src: url("../fonts/Azonix.otf");
+    }
+
+    @font-face{
+        font-family: proximanova;
+        src: url("../fonts/proximanova.otf");
+    }
+
+    @font-face{
+        font-family: montserrat;
+        src: url("../fonts/Montserrat-Regular.ttf");
+    }
+
+    @font-face{
+        font-family: roboto;
+        src: url("../fonts/Roboto-Regular.ttf");
+    }
+
+    div.heading{
+        width: 100%;
+        height: 700px;
+        background-image:url("../images/eve_background.jpg");
+        margin:0px;
+        padding: 0px;
+        display: table;
+        position: relative;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        margin-top: 0px;
+        justify-content: center;
+    }
+
+    h1.dates{
+        font-size: 1.6em;
+        font-family: montserrat;
+    }
+
+    div.heading_overlay{
+        background: linear-gradient(to right, rgba(0,239,238,0.5), rgba(0,255,255,0.4));
+        width: 100%;
+        height: 700px;
+        display: inline-block;
+    }
+    
+    p.p_heading{
+        font-style: bold;
+        font-family: agency fb;
+        font-size: 2em;
+        padding-top: 20px;
+    }
+
+    div.force{
+        width: 100%;
+        position: relative;
+        height: 300px;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0;
+        background-color: rgba(169,169,169,0.3);
+    }
+
+    h1.h1_force{
+        font-weight: 1;
+        font-size: 3em;
+        font-family: montserrat;
+        color: black;
+    }
+
+    p.p_force{
+        font-family: roboto;
+        color: rgba(0,0,0,0.7);
+        font-size: 1.3em;
+        text-align: center;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    div.timer{
+        width: 100%;
+        height: 508px;
+        background-image: url("../images/timer.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        margin: 0px;
+        padding: 0px;
+        display: table;
+        overflow: hidden;
+        padding-bottom: 0px;
+        }
+
+        div.timer_overlay{
+            align-items: center;
+        width: 100%;
+        display: table;
+        overflow: hidden;
+        height: 508px; 
+        background-image: linear-gradient(to right, rgba(225,0,225,0.3), rgba(127,0,225,0.3)); 
+        }
+
+    h1.h1_timer{
+        font-family: montserrat;
+        font-size: 3em;
+        color: white;
+        font-weight: 1;
+        padding-top: 100px;
+    }
+
+    h1.demo{
+        font-size: 3em;
+        word-spacing: 10px;
+        font-family: montserrat;
+        text-align: center;
+        color: black;
+        padding-top: 15px;
+    }
+
+    div.timered{
+        width: 800px;
+        height: 100px;
+        background-image: linear-gradient(to right, rgb(225,0,225) , rgb(127,0,225));
+        margin: 0 auto;
+        border-radius: 4px;
+    }
+
+    div.principal{
+        width: 100%;
+        background-image: url("../images/principal_bg.jpg");
+        min-height: 680px;
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    div.principal_overlay{
+        background:linear-gradient(to left,rgba(0,178,238,0.6) 1%, rgba(0,0,0,0.7));
+        min-height: 680px;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    h1.h1_principal{
+        font-family: roboto;
+        font-size: 3em;
+        color: ghostwhite;
+    }
+
+    img.img_principal{
+        background-image: url("../images/principal.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+
+    p.p_principal{
+        font-family:montserrat;
+        font-size: 1em;
+        color: white;
+        padding-left:20px;
+        padding-right: 20px;
+    }
+
+    div.events{
+        width: 100%;
+        height: 300px;
+        background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    }
+
+    h1.h1_events{
+        font-family: roboto;
+        color: gainsboro;
+        font-size: 15em;
+        margin: 0 auto;
+    }
+
+    div.web_design{
+        background-image:url(../images/web_design.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.prog{
+        background-image:url(../images/prog.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.robowars{
+        background-image:url(../images/robowars.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.audio{
+        background-image:url(../images/audio.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.video{
+        background-image:url(../images/video.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.app_dev{
+        background-image:url(../images/app_dev.png);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.cryptx{
+        background-image:url(../images/cryptex.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.console_gaming{
+        background-image:url(../images/console_gaming.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.pc_gaming{
+        background-image:url(../images/pcgaming.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.paint{
+        background-image:url(../images/Painting.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.di{
+        background-image:url(../images/di.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.fancy_dress{
+        background-image:url(../images/fancydress.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.surprise{
+        background-image:url(../images/surprise.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.animation{
+        background-image:url(../images/tweend.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.hardware{
+        background-image:url(../images/hardware.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+     div.quiz{
+        background-image:url(../images/quiz.jpg);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.crew{
+        background: rgba(169,169,169,0.3);
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    div.over{
+        width: 100%;
+        min-height:300px;
+        display: inline-block;
+        margin: 0 ;
+        padding: 0;
+        background: rgba(0,0,0,0.5);
+    }
+
+    h1.ev_h1{
+        font-family: montserrat;
+        font-size: 3em;
+        color:ghostwhite;
+    }
+
+    p.ev_p{
+        font-size: 1.5em;
+        font-family: century gothic;
+        background: linear-gradient(to right, #ff8a00,#da1b60);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 1000;
+    }
+
+    button.ev_button{
+        width: 110px;
+        height: 50px;
+        border: none;
+        border-radius: 8px;
+        background:  linear-gradient(to right, #ff8a00,#da1b60);
+        font-family: roboto;
+        color: white;
+        font-size: 0.8em;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    button.ev_button:hover{
+        cursor: pointer;
+    }
+
+    button.ev_button:focus{
+        outline: none;
+    }
+
+    button.ev_button2{
+        display: none;
+        width: 110px;
+        height: 50px;
+        border: none;
+        border-radius: 8px;
+        background:  linear-gradient(to right, #ff8a00,#da1b60);
+        font-family: roboto;
+        color: white;
+        font-size: 0.8em;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    button.ev_button2:hover{
+        cursor: pointer;
+    }
+
+    button.ev_button2:focus{
+        outline: none;
+    }
+
+
+    h1.text1{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text2{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text3{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text4{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text5{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text6{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text7{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text8{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text9{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text10{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text11{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text12{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text13{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text14{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text15{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    }
+
+    h1.text16{
+        font-family: roboto;
+        font-size: 1.5em;
+        color: ghostwhite;
+        display: none;
+    } 
+
+    img.cross{
+       border-radius: 50%;
+       display: none;
+       width: 35px;
+       height: 35px;
+       transition: 1.0s;
+       padding: 5px;
+   }
+     img.cross:hover{
+       cursor: pointer;
+       width: 35px;
+       height: 35px;
+       transform: rotate(325deg);
+       transition: 1s;
+       padding: 5px;
+   }
+
+   div.register{
+    width: 100%;
+    min-height: 100px;
+    background-color:  rgba(169,169,169,0.3);
+    margin: 0;
+    padding: 0;
+    display: table;
+    overflow:hidden;
+    margin-top: 0px;
+   }
+
+     h1.h1_register{
+        font-family: montserrat;
+        font-size: 3em;
+        color: black;
+        padding: 0px;
+     }
+
+     button.button_register{
+        width: 130px;
+        height: 50px;
+        background-color: #ff8a00;
+        color: black;
+        font-family: montserrat;
+        font-size: 0.8em;
+        text-align: center;
+        transition: 1s;
+        border: none;
+        padding: 0px;
+     }
+
+     button.button_register:hover{
+        background-color: rgba(169,169,169,0.3);
+        cursor: pointer;
+        transition: 1s;
+     }
+
+     button.button_register:focus{
+        outline: none;
+        cursor: pointer;
+     }
+
+     button.button_download{
+        width: 130px;
+        height: 50px;
+        background-color: #ff8a00;
+        color: black;
+        font-family: montserrat;
+        font-size: 0.7em;
+        text-align: center;
+        transition: 1s;
+        border: none;
+        padding: 0px;
+     }
+
+     button.button_download:hover{
+        background-color: rgba(169,169,169,0.3);
+        cursor: pointer;
+        transition: 1s;
+     }
+
+     button.button_download:focus{
+        outline: none;
+        cursor: pointer;
+     }
+
+
+   div.made{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+   }
+
+   h1.made{
+    font-family: montserrat;
+    font-size: 1.5em;
+    color: black;
+   }
+
+div.footer{
+    width: 100%;
+    min-height:500px;
+    background: url(../images/footer.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div.footer_shade{
+    width: 100%;
+    min-height: 500px;
+    display: inline-block;
+    background: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,1));
+}
+h1.footer{
+    font-family: roboto;
+    font-size: 4em;
+    color: ghostwhite;
+    font-weight: 1000;
+}
+
+img.footer{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+p.footer{
+    font-family: montserrat;
+    font-size: 2em;
+    float: inherit;
+    color: ghostwhite;
+}
+img.style{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+}
+
+div.team{
+    width: 100%;
+    min-height:  300px;
+    background: linear-gradient(to bottom, rgb(0,191,255) 20%,rgb(0,0,0));
+    display: inline-block;
+    margin: 0 auto;
+}
+h1.h1_team{
+    font-size: 7em;
+    color: white;
+    font-weight: 1000;
+    font-family: montserrat;
+}
+img.img_team{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+p.p_team{
+    color: ghostwhite;
+    font-family: roboto;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.fa{
+    size: 120px;
+    padding: 20px;
+    width: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 2px;
+    transition: 0.5s;
+}
+.fa:hover{
+    color: white;
+    transition: 0.5s;
+}
+.fa:focus{
+    outline: none;
+}
